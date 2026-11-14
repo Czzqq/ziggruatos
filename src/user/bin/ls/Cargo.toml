@@ -1,0 +1,13 @@
+[package]
+name = "ls"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ziggurat_core = { path = "../../lib/ziggurat_core" }
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"

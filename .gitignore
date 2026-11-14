@@ -1,0 +1,22 @@
+# Build outputs
+/tools/mkfs.zfs/mkfs.zfs
+make-out
+build
+.zig-cache
+.zig-global-cache
+.zig-local-cache
+zig-out
+
+# Generated files
+src/kernel/riscv/asm/constants.zig
+
+# Runtime files
+initramfs_root
+disk.img
+
+# IDE and docs
+TODO
+CLAUDE.md
+.vscode
+
+__pycache__
